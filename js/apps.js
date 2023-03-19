@@ -13,13 +13,14 @@ const displayData = (contries)=>{
 const creatCountryHtml = (data)=>{
    console.log(data)
     return `
-    <div>
-        <h1>${data.name.common}</h1>
+    <div class="country-data">   
         <img src="${data.flags.png}" alt="">
-        <h3>${data.area}</h3>
+        <h1>Name : ${data.name.common}</h1>
+        <h3>Area :${data.area}</h3>
         <div class="coatOfArms">
-             <img src="${data.coatOfArms.png}" alt="">
+             <img src="${data.coatOfArms.png}" alt="">    
         </div>
+        <h2>Coat Of Arms</h2>
     </div>
     `
 }

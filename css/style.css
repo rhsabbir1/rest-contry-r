@@ -1,0 +1,22 @@
+
+.counteies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+    /* border: 4px solid saddlebrown; */
+}
+.country-data{
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid sandybrown;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.coatOfArms{
+    width: 120px;
+    height: 120px;
+}
+.coatOfArms img{
+    width: 100%;
+}
