@@ -11,10 +11,15 @@ const displayData = (contries)=>{
     CountryContainer.innerHTML = coutryHtml;
 }
 const creatCountryHtml = (data)=>{
-   console.log(data.name.common)
+   console.log(data)
     return `
     <div>
         <h1>${data.name.common}</h1>
+        <img src="${data.flags.png}" alt="">
+        <h3>${data.area}</h3>
+        <div class="coatOfArms">
+             <img src="${data.coatOfArms.png}" alt="">
+        </div>
     </div>
     `
 }
