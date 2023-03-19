@@ -18,7 +18,7 @@ const creatCountryHtml = (data)=>{
         <h1>Name : ${data.name.common}</h1>
         <h3>Area :${data.area}</h3>
         <div class="coatOfArms">
-             <img src="${data.coatOfArms.png}" alt="">    
+             <img src="${data.coatOfArms ? data.coatOfArms.png : 'No img'}" alt="">    
         </div>
         <h2>Coat Of Arms</h2>
     </div>
